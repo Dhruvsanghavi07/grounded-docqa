@@ -1,0 +1,40 @@
+{"q": "How do I make a query parameter optional with a default value?", "relevant": ["query-params.md"]}
+{"q": "How can I restrict a query string to a maximum length or match a regex?", "relevant": ["query-params-str-validations.md"]}
+{"q": "How do I accept a list of values for the same query parameter?", "relevant": ["query-params-str-validations.md"]}
+{"q": "How do I require a path parameter to be greater than or equal to 1?", "relevant": ["path-params-numeric-validations.md"]}
+{"q": "Why does the order of path operations matter for /users/me?", "relevant": ["path-params.md"]}
+{"q": "How can a path parameter only accept a fixed set of predefined values using an Enum?", "relevant": ["path-params.md"]}
+{"q": "How do I receive a JSON request body as a Pydantic model?", "relevant": ["body.md"]}
+{"q": "How do I declare a body field that is a list of nested submodels?", "relevant": ["body-nested-models.md"]}
+{"q": "How do I do a partial update with PATCH so unset fields are not overwritten?", "relevant": ["body-updates.md"]}
+{"q": "How do I read a request header such as User-Agent?", "relevant": ["header-params.md"]}
+{"q": "Why are underscores in header parameter names converted to hyphens?", "relevant": ["header-params.md", "header-param-models.md"]}
+{"q": "How do I read a cookie value in an endpoint?", "relevant": ["cookie-params.md", "cookie-param-models.md"]}
+{"q": "How do I upload a file and get its filename and content type?", "relevant": ["request-files.md"]}
+{"q": "How do I accept several uploaded files in one request?", "relevant": ["request-files.md"]}
+{"q": "How do I receive HTML form fields like username and password?", "relevant": ["request-forms.md", "request-form-models.md"]}
+{"q": "How do I limit what fields are returned so the password is never in the response?", "relevant": ["response-model.md", "extra-models.md"]}
+{"q": "How do I change the HTTP status code returned when an item is created?", "relevant": ["response-status-code.md", "path-operation-configuration.md"]}
+{"q": "How do I return a 404 error when an item is not found?", "relevant": ["handling-errors.md"]}
+{"q": "How can I override the default handler for request validation errors?", "relevant": ["handling-errors.md"]}
+{"q": "How do I mark an endpoint as deprecated in the docs?", "relevant": ["path-operation-configuration.md"]}
+{"q": "How do I add tags, a summary and a description to an endpoint?", "relevant": ["path-operation-configuration.md", "metadata.md"]}
+{"q": "How do I convert a Pydantic model with datetimes into JSON-compatible data?", "relevant": ["encoder.md"]}
+{"q": "How do I add example request data that shows up in the docs UI?", "relevant": ["schema-extra-example.md"]}
+{"q": "What is dependency injection and how do I declare a dependency with Depends?", "relevant": ["dependencies/index.md"]}
+{"q": "Can I use a class instead of a function as a dependency?", "relevant": ["dependencies/classes-as-dependencies.md"]}
+{"q": "How do I open a database session in a dependency and close it after the response?", "relevant": ["dependencies/dependencies-with-yield.md", "sql-databases.md"]}
+{"q": "How do I apply a dependency to every endpoint in the whole application?", "relevant": ["dependencies/global-dependencies.md", "dependencies/dependencies-in-path-operation-decorators.md"]}
+{"q": "How do dependencies that depend on other dependencies work, and is the result cached?", "relevant": ["dependencies/sub-dependencies.md"]}
+{"q": "How do I get a bearer token from the Authorization header with OAuth2PasswordBearer?", "relevant": ["security/first-steps.md"]}
+{"q": "How do I hash passwords and create JWT access tokens?", "relevant": ["security/oauth2-jwt.md"]}
+{"q": "How do I write a get_current_user dependency that returns the logged in user?", "relevant": ["security/get-current-user.md", "security/simple-oauth2.md"]}
+{"q": "How do I allow a React frontend on another origin to call my API (CORS)?", "relevant": ["cors.md"]}
+{"q": "How do I write middleware that adds a processing time header to every response?", "relevant": ["middleware.md"]}
+{"q": "How do I send an email after returning the response, without making the client wait?", "relevant": ["background-tasks.md"]}
+{"q": "How do I split a large app into multiple files with APIRouter?", "relevant": ["bigger-applications.md"]}
+{"q": "How do I write tests for my API with TestClient and pytest?", "relevant": ["testing.md"]}
+{"q": "How do I serve static files such as images and CSS from a directory?", "relevant": ["static-files.md"]}
+{"q": "How do I connect to a SQL database with SQLModel and create tables on startup?", "relevant": ["sql-databases.md"]}
+{"q": "How do I change the URL of the Swagger docs or disable them?", "relevant": ["metadata.md"]}
+{"q": "How do I run the app inside my debugger in VS Code or PyCharm?", "relevant": ["debugging.md"]}

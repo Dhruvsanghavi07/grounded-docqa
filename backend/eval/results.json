@@ -1,0 +1,28 @@
+{
+  "retrieval": {
+    "bm25": {
+      "recall@1": 0.925,
+      "recall@3": 0.95,
+      "recall@5": 0.95,
+      "mrr": 0.944
+    },
+    "dense": {
+      "recall@1": 0.925,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.963
+    },
+    "hybrid": {
+      "recall@1": 0.975,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.988
+    }
+  },
+  "answers": {
+    "answered_from_relevant_doc": 0.85,
+    "grounded_rate": 1.0,
+    "false_refusal_rate": 0.075,
+    "refusal_rate_out_of_scope": 1.0
+  }
+}
